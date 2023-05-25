@@ -1,0 +1,28 @@
+---
+title: "PCOS project"
+author: "Rushika Pandya"
+date: "2023-04-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Load Libraries
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+# Read Data
+```{r}
+pcos_infertility <- read.csv("../1_data/PCOS_infertility.csv")
+pcos_wo_infertility <- read_excel("../1_data/PCOS_data_without_infertility.xlsx")
+```
+
+# Descriptive stats
+```{r}
+
+```
+
